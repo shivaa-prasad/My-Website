@@ -1,0 +1,43 @@
+.slider {
+	width:80%;
+	height:400px;
+	position:absolute;
+	left:50%;
+	top:75%;
+	transform:translate(-50%, -50%);
+	background-image: url("https://images.squarespace-cdn.com/content/v1/541cd5b0e4b0debb3316d7bd/1557517165502-MD1Y8NHQPPUS9O2IEKUW/ke17ZwdGBToddI8pDm48kOggE0Ch6pMGalwtLMqzsSB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ufo5RWkg_J4of0jUNHaDHx6pZKBvpVYzidBWCapg0tuoMuEaB2HPGSYDV-11UTcW2g/Theatre+St+James+Montreal+Toast+Events+Wedding");
+	background-size:100% 100%;
+	box-shadow:2px 2px 10px 5px white;
+	animation:slider 15s infinite linear;
+}
+@keyframes slider {
+	0% {background-image: url("https://images.squarespace-cdn.com/content/v1/5942df83d482e9999dc7d62f/1517512624934-RXP9N4LTNWICM8KMZ7US/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/L%26D+II.jpg?format=2500w");
+	}
+	25% {background-image: url("https://images.squarespace-cdn.com/content/v1/541cd5b0e4b0debb3316d7bd/1557512746723-MQWMZOM51RFXBCO05B4I/ke17ZwdGBToddI8pDm48kOggE0Ch6pMGalwtLMqzsSB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1Ufo5RWkg_J4of0jUNHaDHx6pZKBvpVYzidBWCapg0tuoMuEaB2HPGSYDV-11UTcW2g/Theatre+St+James+Montreal+Toast+Events+Wedding+Ceremony");
+	}
+	50% {background-image: url("https://images.squarespace-cdn.com/content/v1/5168444ee4b0f1cbdee9df36/1568661025665-A7UOLU3H6OQD6X0P2RMR/ke17ZwdGBToddI8pDm48kA_SSaoz4elkj-HsZd8gX3Z7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UWPwZyNcweDIvdeL5kotwkIXjs9g0WibSO_cU-Ijy4Pwg6poS-6WGGnXqDacZer4yQ/Montreal+Wedding+St.+James+Theatre+%2845+of+49%29.jpg?format=2500w");
+	}
+	75% {background-image: url("https://blog.mtl.org/sites/blog/files/styles/hero/public/2018-03/35492_0.jpg?itok=vpTKDHsD");
+	}
+	100% {background-image: url("https://i.pinimg.com/originals/40/cd/8f/40cd8f9848e1e4adace90b2691502783.jpg");
+	}
+}
+.product-thumbnail img {
+	width:65%;
+	padding:10px;
+	margin:40px;
+	float:center;
+	padding:1px;
+	border: 1px solid white;
+	box-shadow: 5px 5px 7px 3px #C71585;
+}
+.product-thumbnail p {
+	color:black;
+	font-family:Abril Fatface;
+	margin-left:40px;
+	margin-top:-10px;
+}
+.catalog{
+	margin-left:330px;
+	margin-top:680px;
+}

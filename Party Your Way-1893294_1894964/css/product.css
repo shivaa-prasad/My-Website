@@ -1,0 +1,149 @@
+* {
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	box-sizing:border-box;
+}
+body {
+	background:white;
+	width:100%;
+	height:100%;
+}
+.menu-bar {
+	background:#C71585;
+	text-align:center;
+}
+.menu-bar ul {
+	 display:inline-flex;
+	 list-style:none;
+	 color:#F95700FF;
+ }
+ .menu-bar ul li {
+	 width:120px;
+	 margin:15px;
+	 padding:15px;
+ }
+ .menu-bar ul li a {
+	 text-decoration:none;
+	 color:white;
+ }
+ 
+.menu-bar ul li:hover 
+ {
+	 background:#F40097;
+	 border-radius:10px;
+ }
+ 
+ .menu-bar span {
+	 font-size:25px;
+	 font-family:Alfa Slab One;
+ }
+ .title {
+	 width:80%;
+	 height:70%;
+	 top:20%;
+	 left:130px;
+	 text-align:center;
+	 font-size:35px;
+	 position:absolute;
+	 color:#2F4F4F;
+ }
+ .title h4 {
+	 color:#F64C72;
+	 font-size:18px;
+	 margin-left:450px;
+	 padding:10px;
+	 font-family: dancing script;
+ }
+  footer {
+	position:relative;
+	background:#262E52;
+	height:170px;
+	right:0px;
+	left:0px;
+	margin-top:50px;
+	bottom:-700px;
+	border:2px solid black;
+ }
+ .copyright {
+	 padding:20px;
+	 font-style:italic;
+	 font-size:18px;
+	 text-align:center;
+	 color:white;
+ }
+ .btn {
+	 display:inline-block;
+	 width:90px;
+	 height:90px;
+	 margin:20px;
+	 margin-right:19%;
+	 margin-top:-5px;
+	 border-radius:70px;
+	 color:white;
+	 overflow:hidden;
+	 position:relative;
+	 float:right;
+ }
+ footer a {
+	 text-align:center;
+	 margin-top:50px;
+ }
+ .btn i {
+	 line-height:90px;
+	 font-size:26px;
+ }
+ .Social h3 {
+	 margin-left:1210px;
+	 padding:20px;
+ }
+ .catering h1{
+	 color:black;
+	 margin-top:185px;
+	 margin-left:90px;
+ }
+.product-thumbnail{
+float:left;
+width:40%;
+padding:40px;
+border: 1px solid black;
+box-shadow: 5px 1px 7px 3px #C71585;
+margin-top:50px;
+margin-left:80px;
+position:relative;
+}
+.product-thumbnail h2{
+	color:black;
+	padding:10px;
+	text-align:center;
+	margin-top:-20px;
+}
+
+.catalog::after{
+	content:"  ";
+	clear:left;
+	display:block;
+}
+.product-thumbnail img {
+	width:170px;
+	height:100px;
+	float:left;
+}
+.product-thumbnail a {
+	color:red;
+	position:absolute;
+	bottom:10px;
+	right:10px;
+}
+.product-thumbnail .price{
+	color:red;
+	font-size:32px;
+	position:absolute;
+	bottom:30px;
+	right:15px;
+}
+.product-thumbnail ul {
+	color:black;
+	list-style-position:inside;
+	margin-left:190px;
+}
